@@ -93,7 +93,7 @@ function init(){
     let jumpto = document.getElementById('jump-to');
 
     const text_entry = new THREE.FontLoader();
-    text_entry.load('./Gothic A1_Regular.json',function(font){
+    text_entry.load('./NanumMyeongjo_Regular.json',function(font){
         let textgeo = new THREE.TextGeometry('이곳은 생각하는 숲',{
             font: font,
             size: 100,
@@ -118,7 +118,7 @@ function init(){
         let j=i+1;
         selectHtml+='<option value="'+j+'">'+diary[i].date+'</option>'
         const text_55 = new THREE.FontLoader();
-        text_55.load('./Gothic A1_Regular.json',function(font){
+        text_55.load('./NanumMyeongjo_Regular.json',function(font){
             let textgeo = new THREE.TextGeometry(diary[i].date+'\n'+diary[i].text,{
                 font: font,
                 size: 50,
