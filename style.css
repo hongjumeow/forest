@@ -1,0 +1,44 @@
+
+body {
+    margin: 0px;
+    overflow:hidden;
+
+}
+#date-selector {
+    font-size:16px;
+    position:absolute;
+    top:70px;
+    right:30px;
+    text-align: center;
+    color: #eee;
+
+}
+#date-selector select{
+    font-size:16px;
+    color:black;
+}
+.social-container{
+    position: absolute;
+    top:20px;
+    right:30px;
+    font-size:12px;
+}
+ul.share-buttons {
+    list-style: none;
+    padding:0;
+    margin:0;
+}
+ul.share-buttons li {
+    display: inline;
+}
+ul.share-buttons img {
+    width:30px;
+    height:auto;
+}
+canvas {
+    /* position:absolute; */
+    width: 100%;
+    height: 100%;
+
+
+}

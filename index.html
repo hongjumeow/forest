@@ -1,0 +1,40 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "stylesheet" href="./style.css"/>
+    <title>Planetarium</title>
+</head>
+<body>
+    <div class = "social-container">
+        <ul class = "share-buttons">
+            <li>
+                <a href="https://www.instagram.com/hhohohongju" title="instagram" target="_blank" onclick="window.open('https://www.instagram.com/hhohohongju'); return false;">
+                <img src="./resources/instagram.ico"></a>
+            </li>
+            <li>
+                <a href="https://www.pinterest.com/rhdrl0329" target="_blank" onclick="window.open('https://www.pinterest.com/rhdrl0329'); return false;">
+                <img src="./resources/pinterest.ico"></a>
+            </li>
+            <li>
+                <a href="https://www.soundcloud.com/hongjudaprodigy" target="_blank" onclick="window.open('https://www.souncdloud.com/hongjudaprodigy'); return false;">
+                <img src="./resources/soundcloud.ico"></a>
+            </li>
+        </ul>
+    </div>
+    <div id="date-selector">
+        <select id = "jump-to" class="button"></select>
+    </div>
+    <!-- <div class = "scene"></div> -->
+    <canvas id="canvas"></canvas>
+    <script src="./implementation/three.min.js"></script>
+    <script src="./implementation/GLTFLoader.js"></script>
+    <script src="./implementation/OrbitControls.js"></script>
+    <script src="./implementation/fflate.min.js"></script>
+    
+    <script src="./data.js"></script>
+    <script src="./main.js"></script>
+
+</body>
+</html>
